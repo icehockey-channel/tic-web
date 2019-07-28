@@ -1,3 +1,6 @@
+# 設定ファイル
+root以下に、.contentful.jsonを置いて置くこと。セキュリティ上、githubにはあげない[参考](https://qiita.com/kmifa/items/c320575b65ac35a9e7f1#4-nuxtjs%E3%81%A8contentful%E3%81%AE%E7%B4%90%E4%BB%98%E3%81%91)
+
 # blog-in-5-min
 
 > A statically rendered blog based on Contentful
