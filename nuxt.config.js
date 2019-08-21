@@ -70,7 +70,8 @@ export default {
       }
     }
   },
-
+  // eslint-disable-next-line no-dupe-keys
+  plugins: ['~/plugins/contentful'],
   env: {
     CTF_SPACE_ID: config.CTF_SPACE_ID,
     CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
