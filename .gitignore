@@ -89,3 +89,6 @@ sw.*
 
 #contentful
 .contentful.json
+
+#test components
+components.vue
