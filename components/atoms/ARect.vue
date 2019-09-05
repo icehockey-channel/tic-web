@@ -58,7 +58,7 @@ export default {
     }
   },
   computed: {
-    colored() {
+    colored () {
       return this.color !== 'black-bis'
     }
   }
@@ -67,15 +67,15 @@ export default {
 
 <style lang="scss" scoped>
 .custom--a-rect {
-  color: $text;
+ // color: $text;
   position: relative;
 
   &.border {
-    border-bottom: $grey 1px solid;
+    border-bottom: grey 1px solid;
   }
 
   &.top-border {
-    border-top: $grey 1px solid;
+    border-top: grey 1px solid;
   }
 
   &.pointer {

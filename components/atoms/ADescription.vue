@@ -1,10 +1,6 @@
 <template lang="pug">
 .custom--a-description(
-  :class="[{ 'has-text-left': !center,
-  'has-text-centered': center,
-  'has-text-weight-medium': !bold ,
-  'has-text-weight-semibold': bold },
-  `has-text-${color}`]"
+  :class="[{ 'has-text-left': !center, 'has-text-centered': center, 'has-text-weight-medium': !bold , 'has-text-weight-semibold': bold }]"
   :style="{width: `${width}px`}"
 )
   slot
