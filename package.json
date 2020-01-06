@@ -30,11 +30,11 @@
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0"
   },
-  "gitHooks":{
+  "gitHooks": {
     "pre-commit": "lint-staged"
   },
-  "lint-staged":{
-    "*.{js,vue}":[
+  "lint-staged": {
+    "*.{js,vue}": [
       "vue-cli-service lint --fix",
       "git add"
     ]
