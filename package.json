@@ -10,12 +10,15 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lintfix": "yarn prettier && yarn eslint --fix && yarn stylelint"
+    "lintfix": "yarn prettier && yarn eslint --fix && yarn stylelint",
+    "eslint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "@nuxtjs/bulma": "^1.2.1",
     "contentful": "^7.8.2",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
